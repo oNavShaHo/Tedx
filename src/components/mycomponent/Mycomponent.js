@@ -5,7 +5,7 @@ function Mycomponent({heading,content,position,image,button,posi}) {
 
     <div class="container">
       <div class="container1">
-      <img src={image}   padding="10px" style={{float: position === 'right' ? 'right' : 'left'}} />
+      <img src={image} alt=""  padding="10px" style={{float: position === 'right' ? 'right' : 'left'}} />
        <h2>{heading}</h2>
        <br/>
        

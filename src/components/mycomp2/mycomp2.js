@@ -19,7 +19,7 @@ const MyComponent2 = ({imagee, imagePosition,heading,content,position,image,butt
 
   return (
     <div style={containerStyle}>
-      {imagePosition === 'left' && <img src={imagee} style={imageStyle} />}
+      {imagePosition === 'left' && <img src={imagee}  alt="" style={imageStyle} />}
       <div style={{width: '60%'}}>
       <Mycomponent 
 heading={heading}
@@ -31,7 +31,7 @@ posi={posi}
 
 />
       </div>
-      {imagePosition === 'right' && <img src={image} style={imageStyle} />}
+      {imagePosition === 'right' && <img src={image} alt="" style={imageStyle} />}
     </div>
   );
 };

@@ -5,7 +5,7 @@ import i3 from '../../images/tedhc3.png'
 import a2 from '../../images/red.png'
 import '../third/third.css'
 import MyComponent2 from '../../components/mycomp2/mycomp2'
-import Red from '../../images/red.png'
+// import Red from '../../images/red.png'
 function third() {
   return (
     <div>
