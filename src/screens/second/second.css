@@ -1,0 +1,25 @@
+img {
+    width: 100vw; /* 100% of the viewport width */
+    height: 100vh; /* 100% of the viewport height */
+    object-fit: cover; /* scale the image to cover the entire area */
+  }
+ 
+  .second-screen {
+    position: relative;
+  
+  }
+  
+  #center-text {
+    position: absolute;
+    top: 77%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    float: none;
+    margin: 0 auto;
+    font-size: 2em;
+    letter-spacing: 20px;
+  }
+  
+  
+  
+  

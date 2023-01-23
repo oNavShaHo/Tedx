@@ -1,0 +1,23 @@
+#navbar {
+  width: 50%;
+  float: left;
+  overflow-x: visible;
+}
+#image{
+  position: relative;
+  right:0;
+  float: right;
+  background-color: black;
+  width: 50%;
+  z-index: 1;
+ 
+  
+}
+#image img {
+ float: right;
+  right: 0;
+  z-index: 2;
+  width: 170%;
+  height: 100vh;
+ 
+}
